@@ -3,7 +3,7 @@ public class DoublyLinkedListCustom implements MyListInterface {
     private Node tail;
     private int size;
 
-    //TODO implement methods
+    // TODO implement all methdos provided by the interface
 
     @Override
     public void addFirst(int item) {
@@ -94,5 +94,9 @@ public class DoublyLinkedListCustom implements MyListInterface {
     public Node deleteKey(int key) {
         return null;
     }
+
+    //TODO implement methods
+
+
 }
 

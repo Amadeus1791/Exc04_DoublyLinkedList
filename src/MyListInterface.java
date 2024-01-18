@@ -28,12 +28,12 @@ public interface MyListInterface {
 
     void reverseList();
 
+    // returns an exact copy of the list
     DoublyLinkedListCustom copyList();
 
     void clear();
 
     boolean insertAfter(int key, int data);
-
 
     // Removes first occurrence of element val and returns true if this was successful.
     // In error case (e.g. if the given element is not found) return false.
